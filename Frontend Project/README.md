@@ -1,42 +1,56 @@
-# React + Vite
-
 # 🛍️ E-Commerce Frontend Website
 
-A modern and responsive E-Commerce frontend application built using React.js.  
-This project focuses on creating a clean shopping UI with smooth navigation, reusable components, and an engaging user experience.
+A modern, responsive, and user-friendly **E-Commerce Frontend Website** built with React.js and Tailwind CSS. This project provides a smooth online shopping experience with a clean interface, product browsing, and cart UI functionality.
+
+<p align="center">
+  <a href="https://frontend-project-mocha-one.vercel.app/">
+    <strong>🌐 Live Demo</strong>
+  </a>
+</p>
 
 ---
 
-# ✨ Features
+## 🚀 Live Website
 
-- 🛒 Modern Shopping UI
-- 📱 Fully Responsive Design
-- 🔍 Product Browsing Interface
-- ❤️ Clean User Experience
-- ⚡ Fast React Components
-- 🎨 Beautiful Layout & Styling
-- 🔄 Dynamic Routing
-- 🧩 Reusable Components
-- 🛍️ Cart UI Functionality
-- 🌈 Smooth Frontend Experience
+🔗 **Website:** https://frontend-project-mocha-one.vercel.app/
+
+📂 **GitHub Repository:** https://github.com/anmolpanchal-dev/E-Commerce
 
 ---
 
-# 🚀 Tech Stack
+## ✨ Features
 
-## Frontend
-- React.js
-- Tailwind CSS
-- React Router DOM
-- JavaScript (ES6+)
+- 🛒 Modern and intuitive shopping interface
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- 🔍 Product browsing interface
+- ❤️ Clean and engaging user experience
+- 🧩 Reusable React components
+- 🔄 Dynamic routing with React Router DOM
+- 🛍️ Cart UI functionality
+- 🎨 Modern styling with Tailwind CSS
+- ⚡ Fast development and optimized builds using Vite
 
 ---
 
-# 📂 Project Structure
+## 🛠️ Tech Stack
 
-```bash
+| Technology | Purpose |
+|---|---|
+| React.js | Building user interfaces |
+| JavaScript (ES6+) | Application logic |
+| Tailwind CSS | Responsive styling |
+| React Router DOM | Client-side navigation |
+| Vite | Development server and build tool |
+| Git & GitHub | Version control and source code management |
+| Vercel | Deployment and hosting |
+
+---
+
+## 📂 Project Structure
+
+```text
 E-Commerce/
-│
+├── public/
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -44,22 +58,80 @@ E-Commerce/
 │   ├── context/
 │   ├── App.jsx
 │   └── main.jsx
-│
-├── public/
+├── index.html
 ├── package.json
+├── package-lock.json
 └── README.md
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## ⚙️ Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Follow these steps to run the project locally.
 
-## React Compiler
+### 1. Clone the repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/anmolpanchal-dev/E-Commerce.git
+```
 
-## Expanding the ESLint configuration
+### 2. Navigate to the project directory
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+cd E-Commerce
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open in your browser
+
+Visit the local URL displayed in your terminal, usually:
+
+```text
+http://localhost:5173/
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel**.
+
+🔗 **Live Demo:** https://frontend-project-mocha-one.vercel.app/
+
+---
+
+## 🎯 Project Goal
+
+The goal of this project is to strengthen frontend development skills by building a modern shopping interface using React.js, reusable components, responsive design principles, and client-side routing.
+
+---
+
+## 👨‍💻 Author
+
+**Anmol Panchal**
+
+- 💻 GitHub: [@anmolpanchal-dev](https://github.com/anmolpanchal-dev)
+- 🔗 LinkedIn: [Anmol Panchal](https://www.linkedin.com/in/anmolpanchal-dev/)
+- 🌐 Portfolio: [Visit My Portfolio](https://anmolpanchal-dev.github.io/Portfolio/)
+
+---
+
+<p align="center">
+  ⭐ If you like this project, consider giving it a star!
+</p>
+
+<p align="center">
+  Made with ❤️ by Anmol Panchal
+</p>
